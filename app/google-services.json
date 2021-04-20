@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "175086332734",
+    "project_id": "testaplication-bee3b",
+    "storage_bucket": "testaplication-bee3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175086332734:android:8447e060b73dd254431a6f",
+        "android_client_info": {
+          "package_name": "ua.devserhii.testaplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175086332734-vqlebdm1ho6lcanmkb6ojp2und7n219l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.devserhii.testaplication",
+            "certificate_hash": "f7f7d35f24002d379f7eb77fbfba1756c15806d2"
+          }
+        },
+        {
+          "client_id": "175086332734-mo58to8mrm2871muv2bp353u9r75ca95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6aZYxjmxuWEo-MepeW7fjLsu_iFWkebk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175086332734-mo58to8mrm2871muv2bp353u9r75ca95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
