@@ -20,10 +20,9 @@ class WebFragment : Fragment(R.layout.web_fragment) {
         super.onViewCreated(view, savedInstanceState)
 
         webView = wv_fragment
-        // включаем поддержку JavaScript
         webView.settings.javaScriptEnabled = true
-        // указываем страницу загрузки
-        webView.loadUrl("http://developer.alexanderklimov.ru/android")
+        webView.webViewClient = MyWebViewClient()
+        webView.loadUrl("https://www.google.com.ua")
     }
 
     private class MyWebViewClient : WebViewClient() {

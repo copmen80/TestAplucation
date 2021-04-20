@@ -12,8 +12,9 @@ class StartScreenFragment : Fragment(R.layout.start_screen_fragment) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-b_start.setOnClickListener {
-
-}
+        b_start.setOnClickListener {
+            (activity as ShowingInterface).showWebView()
+        }
     }
+
 }
