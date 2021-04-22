@@ -1,18 +1,19 @@
-package ua.devserhii.testaplication
+package ua.devserhii.testaplication.activity.fragments
 
 import android.annotation.TargetApi
 import android.os.Build
 import android.os.Bundle
 import android.view.View
+import android.webkit.CookieManager
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.web_fragment.*
+import ua.devserhii.testaplication.R
 
-/**
- * Created by Vladislav Boiko on 20.04.2021.
- */
+
+
 class WebFragment : Fragment(R.layout.web_fragment) {
     private lateinit var webView: WebView
 
@@ -22,7 +23,8 @@ class WebFragment : Fragment(R.layout.web_fragment) {
         webView = wv_fragment
         webView.settings.javaScriptEnabled = true
         webView.webViewClient = MyWebViewClient()
-        webView.loadUrl("https://www.google.com.ua")
+        webView.loadUrl("https://pin-up.games/")
+
     }
 
     private class MyWebViewClient : WebViewClient() {
@@ -33,3 +35,4 @@ class WebFragment : Fragment(R.layout.web_fragment) {
         }
     }
 }
+

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TestAplication</string>
+    <string name="facebook_app_id">850281032559414</string>
+    <string name="fb_login_protocol_scheme">fb850281032559414</string>
+    <string name="start">Замовити гру</string>
+    <string name="email">email</string>
+    <string name="number">Номер телефона</string>
+    <string name="name">Ім\'я</string>
+    <string name="title">Замовити</string>
 </resources>
