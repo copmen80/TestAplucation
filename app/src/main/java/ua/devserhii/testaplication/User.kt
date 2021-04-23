@@ -6,10 +6,10 @@ package ua.devserhii.testaplication
 class User() {
     var id: String? = null
     var name: String? = null
-    var number: Int? = null
+    var number: Long? = null
     var email: String? = null
 
-    constructor(id: String, name: String, number: Int, email: String) : this() {
+    constructor(id: String, name: String, number: Long?, email: String) : this() {
         this.id = id
         this.name = name
         this.number = number
