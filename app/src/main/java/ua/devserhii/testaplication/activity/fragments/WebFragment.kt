@@ -23,6 +23,7 @@ class WebFragment : Fragment(R.layout.web_fragment) {
         webView = wv_fragment
         webView.settings.javaScriptEnabled = true
         webView.webViewClient = MyWebViewClient()
+        CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true)
         webView.loadUrl("https://pin-up.games/")
 
     }
